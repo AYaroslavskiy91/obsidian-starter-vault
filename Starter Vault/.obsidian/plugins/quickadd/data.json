@@ -1,0 +1,194 @@
+{
+  "choices": [
+    {
+      "id": "cf3eee80-c138-49f9-a399-f68bd23cc41b",
+      "name": "Template - Daily Note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "3. Resources/Templates - Markdown/Template - Daily Note.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "2. Areas of Responsibility/Daily Notes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "7814a282-1b28-423f-9e8e-70f83383b1f0",
+      "name": "Template - Exercise",
+      "type": "Template",
+      "command": true,
+      "templatePath": "3. Resources/Templates - Markdown/Template - Exercise.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE}} workout/1"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "2. Areas of Responsibility/Exercise"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "db04ced3-1ea0-47ee-a439-d6132303816c",
+      "name": "Template - Add Person",
+      "type": "Template",
+      "command": true,
+      "templatePath": "3. Resources/Templates - Markdown/Template - People.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "2. Areas of Responsibility/People"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "1ac9c2a6-fd4e-4623-86d4-fca7d8abc832",
+      "name": "Script - Saw Person",
+      "type": "Macro",
+      "command": true,
+      "macroId": "efdf4592-81c5-49eb-a88b-0620582121de"
+    },
+    {
+      "id": "344c47d5-3506-4f2f-a6bc-75b0a3e2080b",
+      "name": "Script - Add Meeting Attendee",
+      "type": "Macro",
+      "command": true,
+      "macroId": "efdf4592-81c5-49eb-a88b-0620582121de"
+    },
+    {
+      "id": "d1767e3e-be94-4797-92b0-dfb8cd3665f3",
+      "name": "Template - Add Meeting",
+      "type": "Template",
+      "command": true,
+      "templatePath": "3. Resources/Templates - Markdown/Template - Meeting.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date}} {{value}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "2. Areas of Responsibility/Meetings"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    }
+  ],
+  "macros": [
+    {
+      "name": "template - daily note",
+      "id": "3cc99f0e-e1ee-4a9b-999f-97f39f3ba827",
+      "commands": [
+        {
+          "name": "pickPersonWork",
+          "type": "UserScript",
+          "id": "ef09fbf7-bba2-4ee3-830e-e5050cd0b767",
+          "path": "3. Resources/Templates - Javascript/pickPersonWork.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Script - Saw Person",
+      "id": "efdf4592-81c5-49eb-a88b-0620582121de",
+      "commands": [
+        {
+          "name": "pickPerson",
+          "type": "UserScript",
+          "id": "d320dffa-ea4c-47c1-8b26-03cb83047e78",
+          "path": "3. Resources/Templates - Javascript/pickPerson.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Script - Add Meeting Attendee",
+      "id": "0293caca-f4c3-44e8-84e3-6b56df6253de",
+      "commands": [],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "3. Resources/Templates - Markdown",
+  "announceUpdates": true,
+  "version": "1.0.2",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}
