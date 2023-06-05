@@ -9,7 +9,6 @@ tags: lists links
 
 ## Lists, Lists, Lists
 
-Many of you are likely aware of markdown lists and how to use them. Nonetheless, we provide a brief introduction. Obsidian has 3 native list types: Bulleted List, Numbered List, and Checklist. Initiating each list can be done by typing out \*, -, or - [ ] respectively.
 
 * This is my first list. ^94d405
 * It is not very long.

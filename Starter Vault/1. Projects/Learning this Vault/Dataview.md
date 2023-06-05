@@ -31,7 +31,7 @@ Additionally, one can tag a page using #, in the following way:
 We can also create custom inline metadata by inserting a [key::value]. This is especially handy when tagging individual tasks within a checklist.
 
 ## Queries
-There are four fundamental query types in dataview: List, Task, Table, and Calendar. We will talk primarily about the first three. These queries can be written in Dataview Query Language (DQL), or in dv javascript. We will use DQL for the examples here.
+There are four fundamental query types in dataview: List, Task, Table, and Calendar. I will talk primarily about the first three. These queries can be written in Dataview Query Language (DQL), or in dv javascript. We will use DQL for the examples here.
 
 ### List
 LIST is a useful query type for creating page summaries. Not the difference between this table of contents below and the one provided in the introduction. By adding a 'WITHOUT ID' after the 'LIST', we omit the links to the individual files.

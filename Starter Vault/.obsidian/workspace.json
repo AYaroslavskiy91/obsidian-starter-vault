@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Learning this Vault/Learning this Vault.md",
+                "file": "1. Projects/Learning this Vault/Conclusion.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/Learning this Vault/Learning this Vault.md"
+                "file": "1. Projects/Learning this Vault/Conclusion.md"
               }
             }
           }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/Learning this Vault/Learning this Vault.md",
+                "file": "1. Projects/Learning this Vault/Conclusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projects/Learning this Vault/Learning this Vault.md",
+                "file": "1. Projects/Learning this Vault/Conclusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,13 +182,14 @@
   },
   "active": "0f35e1ea74f298fd",
   "lastOpenFiles": [
+    "1. Projects/Learning this Vault/Other Community Plugins.md",
+    "1. Projects/Learning this Vault/Templater and Quickadd.md",
+    "1. Projects/Learning this Vault/Dataview.md",
     "1. Projects/Learning this Vault/Base Features.md",
+    "1. Projects/Learning this Vault/Navigation.md",
+    "1. Projects/Learning this Vault/Learning this Vault.md",
     "2. Areas of Responsibility/Meetings/2023-06-05 My first meeting.md",
     "1. Projects/Learning this Vault/Conclusion.md",
-    "1. Projects/Learning this Vault/Navigation.md",
-    "1. Projects/Learning this Vault/Templater and Quickadd.md",
-    "1. Projects/Learning this Vault/Other Community Plugins.md",
-    "1. Projects/Learning this Vault/Learning this Vault.md",
     "3. Resources/Templates - Markdown/Template - People.md",
     "3. Resources/Templates - Markdown/Template - Meeting.md",
     "3. Resources/Templates - Markdown/Template - Exercise.md",
@@ -211,7 +212,6 @@
     "2. Areas of Responsibility/Daily Notes/2023-05-29.md",
     "2. Areas of Responsibility/Daily Notes/Untitled.md",
     "3. Resources/Templates - Javascript/dailyNoteNav.js",
-    "1. Projects/Learning this Vault/Dataview.md",
     "1. Projects/Learning this Vault",
     "2. Areas of Responsibility/People",
     "2. Areas of Responsibility/Meetings",

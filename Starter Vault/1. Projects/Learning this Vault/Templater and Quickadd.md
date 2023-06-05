@@ -9,7 +9,7 @@ tags: templater quickadd
 
 ## Templater
 ### Introduction
-Obsidian includes a core plugin for templating, which allows for creating useful templates with Jinja Syntax, but you may quickly find yourself desiring an advanced templating platform that provides more manipulation. Templater is a plugin which expands upon your options. Templater offers a wider pool of commands to set up your notes. Find the full documentation [here](https://silentvoid13.github.io/Templater/introduction.html). Templater also provides a framework for running custom javascript scripts, allowing a host of further options. Explore the provided templates and .js files to see examples of what is possible. Keep in mind that .js files are unsupported in Obsidian, so you need to read and write them using a different editor.
+Obsidian includes a core plugin for templating, which allows for creating useful templates with Jinja Syntax, but you may quickly find yourself desiring an advanced templating platform that provides more manipulation. _Templater_ is a plugin which expands upon your options. Templater offers a wider pool of commands to set up your notes. Find the full documentation [here](https://silentvoid13.github.io/Templater/introduction.html). Templater also provides a framework for running custom javascript scripts, allowing a host of further options. Explore the provided templates and .js files to see examples of what is possible. Keep in mind that .js files are unsupported in Obsidian, so you need to read and write them using a different editor.
 
 ### Included
 We provide templates for Daily Notes, People, Meetings, and Exercise. The latter 3 are written using only core plugin features, which are sufficient for many purposes.
@@ -37,4 +37,4 @@ Also included is a meeting note creation setup. Having never been a strong note-
 
 From the daily note, you can also trigger the 'add-exercise' template. This is included to impress upon you the utility of YAML front matter as data. Keeping a log of your exercises (already queried within the daily note itself) can be useful for tracking progress, and monitoring health. The exercises come from the [[Template - Exercise|exercise template]], which are alphabetized in Jinja Syntax. Add or remove individual exercises as needed. Try creating a similar template for recipes, and consider the utility of querying your recipes by available ingredients!
 
-Finally, there are settings to enable the several buttons found in the aforementioned notes.
+Finally, there are settings to enable the several buttons found in the aforementioned notes. See more about that and other plugins in [[Other Community Plugins|here]].

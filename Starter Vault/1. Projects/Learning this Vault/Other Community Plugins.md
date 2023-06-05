@@ -21,6 +21,9 @@ Which one do you prefer?
 ## Better Word Count
 Whether you need to make sure your object name meets a character limit, or whether you need to limit your Sending spell to 25 words, Better Word Count has your back. Highlight the text and see the associated character and word count. As an added bonus, Better Word Count will track some interesting statistics for your vault and save them into a JSON.
 
+## Buttons
+This is completely motived by phone-based convenience. Using Obsidian on your phone can be painful if you do not optimize the experience. One choice is to change the core settings to limit the list of commands on the command palette, but I find that creating buttons is an easier and more streamlined solution.
+
 ## Folder Note
 Do you ever click on a folder and immediately want a summary of the notes therein? Folder Note is the fix. Provide a note in each folder with the same name as the folder and watch it get absorbed. Here, you can place any number of queries that summarize the pages therein, which eases navigation and removes the mental calculus required to determine what note you need based upon title alone.
 
