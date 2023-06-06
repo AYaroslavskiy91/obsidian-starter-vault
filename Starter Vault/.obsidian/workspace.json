@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "7399087703bbd584",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas of Responsibility/Daily Notes/2023-06-06.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "89bbd2a8317ea8c9",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/Learning this Vault/Conclusion.md"
+                "file": "2. Areas of Responsibility/Daily Notes/2023-06-06.md"
               }
             }
           }
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/Learning this Vault/Conclusion.md",
+                "file": "2. Areas of Responsibility/Daily Notes/2023-06-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projects/Learning this Vault/Conclusion.md",
+                "file": "2. Areas of Responsibility/Daily Notes/2023-06-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,16 +193,23 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "0f35e1ea74f298fd",
+  "active": "7399087703bbd584",
   "lastOpenFiles": [
+    "2. Areas of Responsibility/Daily Notes/2023-06-05.md",
+    "2. Areas of Responsibility/Exercise/2023-06-05 workout/3.md",
+    "2. Areas of Responsibility/Exercise/2023-06-05 workout/2.md",
+    "2. Areas of Responsibility/Exercise/2023-06-05 workout/1.md",
+    "2. Areas of Responsibility/Meetings/2023-06-05 My first meeting.md",
+    "2. Areas of Responsibility/People/Clementine Paddlesworth.md",
+    "2. Areas of Responsibility/People/Banana Steelbutton.md",
+    "2. Areas of Responsibility/Daily Notes/2023-06-06.md",
+    "1. Projects/Learning this Vault/Conclusion.md",
     "1. Projects/Learning this Vault/Other Community Plugins.md",
     "1. Projects/Learning this Vault/Templater and Quickadd.md",
     "1. Projects/Learning this Vault/Dataview.md",
     "1. Projects/Learning this Vault/Base Features.md",
     "1. Projects/Learning this Vault/Navigation.md",
     "1. Projects/Learning this Vault/Learning this Vault.md",
-    "2. Areas of Responsibility/Meetings/2023-06-05 My first meeting.md",
-    "1. Projects/Learning this Vault/Conclusion.md",
     "3. Resources/Templates - Markdown/Template - People.md",
     "3. Resources/Templates - Markdown/Template - Meeting.md",
     "3. Resources/Templates - Markdown/Template - Exercise.md",
@@ -197,13 +217,7 @@
     "3. Resources/Templates - Markdown/js_trigger_saw_person.md",
     "3. Resources/Templates - Markdown/js_trigger_meeting_attendee.md",
     "3. Resources/Templates - Javascript/buttons.md",
-    "2. Areas of Responsibility/Daily Notes/2023-06-05.md",
-    "2. Areas of Responsibility/People/Clementine Paddlesworth.md",
-    "2. Areas of Responsibility/People/Banana Steelbutton.md",
     "3. Resources/Templates - Javascript/pickPersonWork.js",
-    "2. Areas of Responsibility/Exercise/2023-06-05 workout/1.md",
-    "2. Areas of Responsibility/Exercise/2023-06-05 workout/3.md",
-    "2. Areas of Responsibility/Exercise/2023-06-05 workout/2.md",
     "2. Areas of Responsibility/Exercise/2023-06-05 workout",
     "3. Resources/Templates - Markdown/Wedding Template.md",
     "3. Resources/Templates - Markdown/Daily Note Template.md",
