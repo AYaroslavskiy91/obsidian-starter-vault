@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "1. Projects/Learning this Vault/Learning this Vault.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "1. Projects/Learning this Vault/Learning this Vault.md"
               }
             }
           }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "1. Projects/Learning this Vault/Learning this Vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "1. Projects/Learning this Vault/Learning this Vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,10 +170,20 @@
   },
   "active": "72eb92c2465a50ab",
   "lastOpenFiles": [
-    "4. Archive",
+    "1. Projects/Learning this Vault/Dataview and Tasks.md",
+    "3. Resources/Templates - Markdown/Template - Daily Note.md",
+    "3. Resources/Templates - Markdown/Template - People.md",
+    "3. Resources/Templates - Markdown/Template - Meeting.md",
+    "3. Resources/Templates - Markdown/Template - Exercise.md",
+    "3. Resources/Templates - Markdown/js_trigger_saw_person.md",
+    "3. Resources/Templates - Markdown/js_trigger_meeting_attendee.md",
     "1. Projects/Learning this Vault/Learning this Vault.md",
-    "README.md",
+    "1. Projects/Learning this Vault/Base Features.md",
+    "1. Projects/Learning this Vault/Other Community Plugins.md",
     "1. Projects/Learning this Vault/Conclusion.md",
+    "1. Projects/Learning this Vault/Navigation.md",
+    "README.md",
+    "4. Archive",
     "2. Areas of Responsibility/Daily Notes/2023-06-06.md",
     "2. Areas of Responsibility/Daily Notes/2023-06-05.md",
     "2. Areas of Responsibility/Exercise/2023-06-05 workout/3.md",
@@ -182,17 +192,7 @@
     "2. Areas of Responsibility/Meetings/2023-06-05 My first meeting.md",
     "2. Areas of Responsibility/People/Clementine Paddlesworth.md",
     "2. Areas of Responsibility/People/Banana Steelbutton.md",
-    "1. Projects/Learning this Vault/Other Community Plugins.md",
     "1. Projects/Learning this Vault/Templater and Quickadd.md",
-    "1. Projects/Learning this Vault/Dataview.md",
-    "1. Projects/Learning this Vault/Base Features.md",
-    "1. Projects/Learning this Vault/Navigation.md",
-    "3. Resources/Templates - Markdown/Template - People.md",
-    "3. Resources/Templates - Markdown/Template - Meeting.md",
-    "3. Resources/Templates - Markdown/Template - Exercise.md",
-    "3. Resources/Templates - Markdown/Template - Daily Note.md",
-    "3. Resources/Templates - Markdown/js_trigger_saw_person.md",
-    "3. Resources/Templates - Markdown/js_trigger_meeting_attendee.md",
     "3. Resources/Templates - Javascript/buttons.md",
     "3. Resources/Templates - Javascript/pickPersonWork.js",
     "2. Areas of Responsibility/Exercise/2023-06-05 workout",
@@ -204,7 +204,6 @@
     "1. Projects/Learning this Vault",
     "2. Areas of Responsibility/People",
     "2. Areas of Responsibility/Meetings",
-    "2. Areas of Responsibility/Exercise",
-    "2. Areas of Responsibility/Daily Notes"
+    "2. Areas of Responsibility/Exercise"
   ]
 }

@@ -29,6 +29,9 @@ if (next) {
 
 ## ==To Dos==
 
+```tasks
+(due {{date:YYYY-MM-DD}}) OR (scheduled {{date:YYYY-MM-DD}})
+```
 ### ==Birthdays today:==
 
 ```dataview
@@ -49,7 +52,6 @@ type command
 action QuickAdd: Template - People
 color blue
 ```
-
 ```button  
 name Saw Person  
 type append templater  

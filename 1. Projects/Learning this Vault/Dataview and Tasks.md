@@ -1,10 +1,15 @@
 ---
-created: [[2023-05-29]]
+created:
+  - - 2023-05-29
 project: learning_this_vault
 chapter: 3
-tags: dataview queries metadata
+tags:
+  - dataview
+  - queries
+  - metadata
+  - "tasks"
 ---
-# Dataview
+# Dataview and Tasks
 << [[Base Features]] | [[Templater and Quickadd]]>>
 ## Why Dataview?
 Dataview allows you to query your notes, using either Dataview Query Language or Javascript. This can be used to quickly extract data from multiple notes, create a reference to your own data, or to maintain organization, as we will see in our daily notes later.
@@ -101,13 +106,30 @@ AND subtype != "niche"
 AND !completed
 ```
 
-```dataview
-TASK
-FROM #dataview 
-WHERE !completed
-```
-
 Some other task queries will be demonstrated in templates later on, but the _Tasks_ community plugin offers even more options.
 
-### Conclusion
-There are many powerful uses of dataview queries, and we encourage you to experiment with them. Take a look at the [documentation](https://blacksmithgu.github.io/obsidian-dataview/) when you feel ready. For now, let's take a look at a couple of more [[Templater and Quickadd|community plugins]].
+## Tasks
+The glue of this plug-in combines the discretized features of this vault in an organized way, while also adding a couple of new features. Consider the previous tasks, reconstructed below.
+- [ ] Task 1
+- [ ] Task 2 #demo
+- [ ] Task 3 #demo/niche
+
+Tasks allows us to directly and smoothly tag individual checkbox items so that we can query them using Tasks query language.
+
+```tasks
+not done
+tags include #demo/niche 
+```
+
+```tasks
+not done
+tags include #demo
+```
+
+We can also schedule tasks with due/scheduled dates, and priorities. Begin writing a task and as you type out "due", "priorities", or any of the other keywords, an autofill menu should suggest an emoji that tasks uses to process these features. For instance, see the following _recurring_ task.
+
+- [ ] Celebrate the revolution of the Earth around Sol. 🔁 every year ⏳ 2023-12-31
+
+See what happens when you try to complete the above task! The daily note contained herein includes a query to pull any task items to be done that particular day.
+## Conclusion
+There are many powerful uses of dataview and tasks queries, and we encourage you to experiment with them. Take a look at the [dataview documentation](https://blacksmithgu.github.io/obsidian-dataview/) and the [tasks documentation](https://publish.obsidian.md/tasks/Introduction) when you feel ready. For now, let's take a look at a couple of more [[Templater and Quickadd|community plugins]].

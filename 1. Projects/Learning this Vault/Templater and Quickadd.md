@@ -5,7 +5,7 @@ chapter: 4
 tags: templater quickadd
 ---
 # Templater and Quickadd
-<< [[Dataview]] | [[Other Community Plugins]] >>
+<< [[Dataview and Tasks]] | [[Other Community Plugins]] >>
 
 ## Templater
 ### Introduction

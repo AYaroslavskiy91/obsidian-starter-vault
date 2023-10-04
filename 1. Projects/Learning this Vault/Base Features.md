@@ -5,7 +5,7 @@ chapter: 2
 tags: lists links
 ---
 # Base Features
-<< [[Navigation]] | [[Dataview]]>>
+<< [[Navigation]] | [[Dataview and Tasks]]>>
 
 ## Lists, Lists, Lists
 
@@ -49,6 +49,6 @@ my_string2 = "don't interate object names"
 5. Use three --- to create a horizontal line:
 ---
 
-You now have all the tools necessary to begin exploring the rest of the Obsidian base features. Write some notes, see them exist, profit. To take your Obsidian usage to the next stage, take a look at some basic uses of the community plugin [[Dataview]].
+You now have all the tools necessary to begin exploring the rest of the Obsidian base features. Write some notes, see them exist, profit. To take your Obsidian usage to the next stage, take a look at some basic uses of the community plugin [[Dataview and Tasks]].
 
 [^1]: My Footnote
