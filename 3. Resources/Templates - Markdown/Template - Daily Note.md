@@ -1,7 +1,10 @@
----
-created: <% tp.date.now() %>
+<%*
+let date = tp.date.now('YYYY-MM-DD')
+_%>
+<%"---"%>
+created: <% date %>
 tags: daily_note
----
+<%"---"%>
 
 ```dataviewjs 
 let current = dv.current() 
@@ -27,22 +30,24 @@ if (next) {
 
 # <% tp.date.now("dddd, MMMM DD, YYYY") %>
 
-## ==To Dos==
-
-```tasks
-(due {{date:YYYY-MM-DD}}) OR (scheduled {{date:YYYY-MM-DD}})
-```
-### ==Birthdays today:==
-
-```dataview
-TABLE phone
-FROM #person
-WHERE date(birthday).month = this.file.day.month
-AND date(birthday).day = this.file.day.day
-```
-
 ## ==Notes==
 
+
+## ==To Dos Personal==
+
+### Due by Today
+```tasks
+(due ON or BEFORE {{date:YYYY-MM-DD}}) OR (scheduled ON or BEFORE {{date:YYYY-MM-DD}})
+tags include #personal
+sort by tags
+```
+
+### Other Personal Tasks
+```tasks
+tags include #personal
+group by tags
+not done
+```
 
 ## ==People Seen==
 

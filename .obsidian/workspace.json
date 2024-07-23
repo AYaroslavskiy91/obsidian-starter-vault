@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Learning this Vault/Base Features.md",
+                "file": "3. Resources/Templates - Markdown/Template - Daily Note.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/Learning this Vault/Base Features.md"
+                "file": "3. Resources/Templates - Markdown/Template - Daily Note.md"
               }
             }
           }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/Learning this Vault/Base Features.md",
+                "file": "3. Resources/Templates - Markdown/Template - Daily Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projects/Learning this Vault/Base Features.md",
+                "file": "3. Resources/Templates - Markdown/Template - Daily Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,6 +170,7 @@
   },
   "active": "0f35e1ea74f298fd",
   "lastOpenFiles": [
+    "1. Projects/Learning this Vault/Base Features.md",
     "1. Projects/Learning this Vault/Navigation.md",
     "1. Projects/Learning this Vault/Learning this Vault.md",
     "1. Projects/Learning this Vault/Dataview and Tasks.md",
@@ -179,7 +180,6 @@
     "3. Resources/Templates - Markdown/Template - Exercise.md",
     "3. Resources/Templates - Markdown/js_trigger_saw_person.md",
     "3. Resources/Templates - Markdown/js_trigger_meeting_attendee.md",
-    "1. Projects/Learning this Vault/Base Features.md",
     "1. Projects/Learning this Vault/Other Community Plugins.md",
     "1. Projects/Learning this Vault/Conclusion.md",
     "README.md",
