@@ -5,7 +5,7 @@
       "name": "Template - Daily Note",
       "type": "Template",
       "command": true,
-      "templatePath": "3. Resources/Templates - Markdown/Template - Daily Note.md",
+      "templatePath": "3-Resources/Templates - Markdown/Template - Daily Note.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{date}}"
@@ -13,7 +13,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "2. Areas of Responsibility/Daily Notes"
+          "2-Areas-of-Responsibility/Daily-Notes"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -35,15 +35,15 @@
       "name": "Template - Exercise",
       "type": "Template",
       "command": true,
-      "templatePath": "3. Resources/Templates - Markdown/Template - Exercise.md",
+      "templatePath": "3-Resources/Templates - Markdown/Template - Exercise.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{DATE}} workout/1"
+        "format": "{{DATE}} workout/{{DATE}} 1"
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "2. Areas of Responsibility/Exercise"
+          "2-Areas of Responsibility/Exercise"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -65,7 +65,7 @@
       "name": "Template - Add Person",
       "type": "Template",
       "command": true,
-      "templatePath": "3. Resources/Templates - Markdown/Template - People.md",
+      "templatePath": "3-Resources/Templates - Markdown/Template - People.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -73,7 +73,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "2. Areas of Responsibility/People"
+          "2-Areas-of-Responsibility/People"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -109,7 +109,7 @@
       "name": "Template - Add Meeting",
       "type": "Template",
       "command": true,
-      "templatePath": "3. Resources/Templates - Markdown/Template - Meeting.md",
+      "templatePath": "3-Resources/Templates - Markdown/Template - Meeting.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{date}} {{value}}"
@@ -117,7 +117,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "2. Areas of Responsibility/Meetings"
+          "2-Areas-of-Responsibility/Meetings"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -133,6 +133,136 @@
       "openFileInMode": "default",
       "fileExistsMode": "Nothing",
       "setFileExistsBehavior": true
+    },
+    {
+      "id": "058992ed-08e7-4ed1-b46b-3359f689467c",
+      "name": "Template - Add Ingredient",
+      "type": "Template",
+      "command": true,
+      "templatePath": "3-Resources/Templates-Markdown/Template-Ingredient.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "3-Resources/Ingredients"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "a2da5a59-e4ac-4304-9c8a-10822f3e7963",
+      "name": "Template - Add Recipe",
+      "type": "Template",
+      "command": true,
+      "templatePath": "3-Resources/Templates-Markdown/Template-Recipe.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "3-Resources/Recipes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "1c8816bc-81a8-4b25-981e-df1a709816c3",
+      "name": "Capture - Create Shopping List",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "2-Areas-of-Responsibility/Daily-Notes/{{date}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "Shopping list:\n<%*\nconst dv = app.plugins.plugins.dataview.api;\n\nconst func = (item) => `${item.file.name}`;\n\nconst recipe = (await tp.system.suggester(func, dv.pages('#recipe'), false, \"\")).file.name;\n\n%>\n```dataview\nlist ingredient where file.name=\"<% recipe %>\"\n```"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "### ==To Dos==",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "34fd9ac7-297b-48e4-99ff-fd3df59c518b",
+      "name": "Capture - Add Ingredient",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<%*\nconst dv = app.plugins.plugins.dataview.api;\n\nconst func = (item) => `${item.file.name}`;\n\nconst ingredient = (await tp.system.suggester(func, dv.pages('#ingredient'), false, \"none\")).file.link;\n\nconst amount = (await tp.system.prompt(\"amount\", \"\"));\n\n%>\nIngredient::<% ingredient %> <%amount%>"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "### Ingredients",
+        "insertAtEnd": true,
+        "considerSubsections": true,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [
@@ -173,7 +303,7 @@
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "3. Resources/Templates - Markdown",
+  "templateFolderPath": "3-Resources/Templates-Markdown",
   "announceUpdates": true,
   "version": "1.0.2",
   "disableOnlineFeatures": true,

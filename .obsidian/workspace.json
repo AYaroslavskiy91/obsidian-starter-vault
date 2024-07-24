@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Learning this Vault/Learning this Vault.md",
+                "file": "1-Projects/Learning-this-Vault/Learning-this-Vault.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/Learning this Vault/Learning this Vault.md"
+                "file": "1-Projects/Learning-this-Vault/Learning-this-Vault.md"
               }
             }
           }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/Learning this Vault/Learning this Vault.md",
+                "file": "1-Projects/Learning-this-Vault/Learning-this-Vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projects/Learning this Vault/Learning this Vault.md",
+                "file": "1-Projects/Learning-this-Vault/Learning-this-Vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,42 +168,43 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "72eb92c2465a50ab",
+  "active": "0f35e1ea74f298fd",
   "lastOpenFiles": [
-    "1. Projects/Learning this Vault/Dataview and Tasks.md",
-    "3. Resources/Templates - Markdown/Template - Daily Note.md",
-    "3. Resources/Templates - Markdown/Template - People.md",
-    "3. Resources/Templates - Markdown/Template - Meeting.md",
-    "3. Resources/Templates - Markdown/Template - Exercise.md",
-    "3. Resources/Templates - Markdown/js_trigger_saw_person.md",
-    "3. Resources/Templates - Markdown/js_trigger_meeting_attendee.md",
-    "1. Projects/Learning this Vault/Learning this Vault.md",
-    "1. Projects/Learning this Vault/Base Features.md",
-    "1. Projects/Learning this Vault/Other Community Plugins.md",
-    "1. Projects/Learning this Vault/Conclusion.md",
-    "1. Projects/Learning this Vault/Navigation.md",
-    "README.md",
-    "4. Archive",
-    "2. Areas of Responsibility/Daily Notes/2023-06-06.md",
-    "2. Areas of Responsibility/Daily Notes/2023-06-05.md",
-    "2. Areas of Responsibility/Exercise/2023-06-05 workout/3.md",
-    "2. Areas of Responsibility/Exercise/2023-06-05 workout/2.md",
-    "2. Areas of Responsibility/Exercise/2023-06-05 workout/1.md",
-    "2. Areas of Responsibility/Meetings/2023-06-05 My first meeting.md",
-    "2. Areas of Responsibility/People/Clementine Paddlesworth.md",
-    "2. Areas of Responsibility/People/Banana Steelbutton.md",
-    "1. Projects/Learning this Vault/Templater and Quickadd.md",
-    "3. Resources/Templates - Javascript/buttons.md",
-    "3. Resources/Templates - Javascript/pickPersonWork.js",
-    "2. Areas of Responsibility/Exercise/2023-06-05 workout",
-    "3. Resources/Templates - Markdown/Wedding Template.md",
-    "3. Resources/Templates - Markdown/Daily Note Template.md",
+    "1-Projects/Learning-this-Vault/5_Other_Community_Plugins.md",
+    "1-Projects/Learning-this-Vault/4_Templater_and_Quickadd.md",
+    "1-Projects/Learning-this-Vault/2_Base_Features.md",
+    "1-Projects/Learning-this-Vault/7_Conclusion.md",
+    "1-Projects/Learning-this-Vault/6_Vault_Idiosyncracies.md",
+    "1-Projects/Learning-this-Vault/Learning-this-Vault.md",
+    "2-Areas-of-Responsibility/Meetings/2023-06-05 My first meeting.md",
+    "3-Resources/Recipes/Roasted Chicken.md",
+    "3-Resources/Recipes/Spaghetti Carbonara.md",
+    "3-Resources/Recipes/Caeser Salad.md",
+    "3-Resources/Recipes/Cabbage and Turnip Kimchi.md",
+    "3-Resources/Recipes/Grilled Cheeseburgers.md",
+    "3-Resources/Templates-Markdown/Template-Recipe.md",
+    "3-Resources/Templates-Javascript/pickIngredient.js",
+    "3-Resources/Ingredients/anchovies.md",
+    "3-Resources/Ingredients/zucchini.md",
+    "3-Resources/Ingredients/worcestorshire sauce.md",
+    "3-Resources/Ingredients/wine.md",
+    "3-Resources/Ingredients/white vinegar.md",
+    "3-Resources/Ingredients/vegetable stock.md",
+    "3-Resources/Ingredients/vanilla extract.md",
+    "3-Resources/Ingredients/turnips.md",
+    "3-Resources/Ingredients/tuna steaks.md",
+    "3-Resources/Ingredients/tortillas.md",
+    "3-Resources/Ingredients/tomatoes.md",
+    "3-Resources/Ingredients/tomato puree.md",
+    "3-Resources/Ingredients/tofu.md",
+    "3-Resources/Ingredients",
+    "3-Resources/Recipes",
+    "4-Archive",
+    "3-Resources/Templates-Javascript/pickPersonWork.js",
+    "2-Areas-of-Responsibility/Exercise/2023-06-05 workout",
     "3. Resources/Templates - Javascript/pickPersonCadent.js",
-    "3. Resources/Templates - Javascript/pickPerson.js",
+    "3-Resources/Templates-Javascript/pickPerson.js",
     "3. Resources/Templates - Javascript/dailyNoteNav.js",
-    "1. Projects/Learning this Vault",
-    "2. Areas of Responsibility/People",
-    "2. Areas of Responsibility/Meetings",
-    "2. Areas of Responsibility/Exercise"
+    "1-Projects/Learning-this-Vault"
   ]
 }
