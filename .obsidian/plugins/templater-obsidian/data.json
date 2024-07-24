@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "3. Resources/Templates - Markdown",
+  "templates_folder": "3-Resources/Templates-Markdown",
   "templates_pairs": [
     [
       "",
@@ -11,12 +11,12 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "3. Resources/Templates - Javascript",
+  "user_scripts_folder": "3-Resources/Templates-Javascript",
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "2. Areas of Responsibility/Daily Notes",
-      "template": "3. Resources/Templates - Markdown/Template - Daily Note.md"
+      "folder": "2-Areas of Responsibility/Daily Notes",
+      "template": "3-Resources/Templates-Markdown/Template-Daily Note.md"
     }
   ],
   "syntax_highlighting": true,

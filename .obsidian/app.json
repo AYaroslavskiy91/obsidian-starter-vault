@@ -3,5 +3,6 @@
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
   "showUnsupportedFiles": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "propertiesInDocument": "source"
 }
