@@ -7,8 +7,8 @@ tags: workplace_filler meeting
 
 ```button  
 name Meeting Attendee  
-type append templater  
-action js_trigger_meeting_attendee
+type command
+action QuickAdd: Capture - saw person meeting
 color blue  
 ```
 

@@ -58,7 +58,7 @@ color blue
 ```button  
 name Saw Person  
 type append templater  
-action js_trigger_saw_person  
+action QuickAdd: Capture - saw person
 color blue  
 ```
 

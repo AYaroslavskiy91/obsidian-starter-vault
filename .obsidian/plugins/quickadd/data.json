@@ -91,20 +91,6 @@
       "setFileExistsBehavior": true
     },
     {
-      "id": "1ac9c2a6-fd4e-4623-86d4-fca7d8abc832",
-      "name": "Script - Saw Person",
-      "type": "Macro",
-      "command": true,
-      "macroId": "efdf4592-81c5-49eb-a88b-0620582121de"
-    },
-    {
-      "id": "344c47d5-3506-4f2f-a6bc-75b0a3e2080b",
-      "name": "Script - Add Meeting Attendee",
-      "type": "Macro",
-      "command": true,
-      "macroId": "efdf4592-81c5-49eb-a88b-0620582121de"
-    },
-    {
       "id": "d1767e3e-be94-4797-92b0-dfb8cd3665f3",
       "name": "Template - Add Meeting",
       "type": "Template",
@@ -263,6 +249,76 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "14f016c0-d594-48c0-ae57-7b1addceeab8",
+      "name": "Capture - saw person",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<%*\nconst dv = app.plugins.plugins.dataview.api;\n\nconst func = (item) => `${item.file.name}`;\n\nconst person = (await tp.system.suggester(func, dv.pages('#person'), false, \"none\")).file.link;\n\n%><% person %> \n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "### ==People Seen==",
+        "insertAtEnd": true,
+        "considerSubsections": true,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "2b11b773-a0ee-4e2f-969b-d5f59a85321a",
+      "name": "Capture - saw person meeting",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<%*\nconst dv = app.plugins.plugins.dataview.api;\n\nconst func = (item) => `${item.file.name}`;\n\nconst person = (await tp.system.suggester(func, dv.pages('#person and #workplace_filler'), false, \"none\")).file.link;\n\n%><% person %> \n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## ==People==",
+        "insertAtEnd": true,
+        "considerSubsections": true,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [
@@ -275,20 +331,6 @@
           "type": "UserScript",
           "id": "ef09fbf7-bba2-4ee3-830e-e5050cd0b767",
           "path": "3. Resources/Templates - Javascript/pickPersonWork.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "Script - Saw Person",
-      "id": "efdf4592-81c5-49eb-a88b-0620582121de",
-      "commands": [
-        {
-          "name": "pickPerson",
-          "type": "UserScript",
-          "id": "d320dffa-ea4c-47c1-8b26-03cb83047e78",
-          "path": "3. Resources/Templates - Javascript/pickPerson.js",
           "settings": {}
         }
       ],

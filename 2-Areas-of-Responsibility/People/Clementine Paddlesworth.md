@@ -4,7 +4,7 @@ aliases: Imaginary Friend
 email: cworth@gmail.com
 phone: 909-012-0123
 title: Support Staff Manager
-tags: person friend
+tags: person
 ---
 # Clementine Paddlesworth
 ## Times Seen
