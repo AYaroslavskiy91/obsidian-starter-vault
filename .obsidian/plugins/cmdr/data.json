@@ -1,0 +1,44 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "quickadd:choice:2ea24817-cf8c-4c1a-bcf7-c0470991df1e",
+      "icon": "lucide-calendar-days",
+      "name": "Daily Note",
+      "mode": "any",
+      "color": "#a47474"
+    },
+    {
+      "id": "quickadd:choice:234e68d8-3daf-43eb-80a8-60be9de57fee",
+      "icon": "lucide-person-standing",
+      "name": "Meeting",
+      "mode": "any",
+      "color": "#a20707"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

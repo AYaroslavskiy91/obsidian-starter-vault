@@ -1,8 +1,10 @@
 {
-  "spellcheck": true,
-  "alwaysUpdateLinks": true,
-  "showLineNumber": true,
-  "showUnsupportedFiles": true,
   "promptDelete": false,
-  "propertiesInDocument": "source"
+  "propertiesInDocument": "visible",
+  "showLineNumber": true,
+  "newFileLocation": "folder",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "_attachments",
+  "newFileFolderPath": "_ephemeral",
+  "livePreview": false
 }

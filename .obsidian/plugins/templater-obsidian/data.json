@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "3-Resources/Templates-Markdown",
+  "templates_folder": "3-Resources/templates",
   "templates_pairs": [
     [
       "",
@@ -8,21 +8,31 @@
     ]
   ],
   "trigger_on_file_creation": true,
-  "auto_jump_to_cursor": true,
+  "auto_jump_to_cursor": false,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "3-Resources/Templates-Javascript",
+  "user_scripts_folder": "",
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "2-Areas of Responsibility/Daily Notes",
-      "template": "3-Resources/Templates-Markdown/Template-Daily Note.md"
+      "folder": "2-Areas-of-Responsibilities/daily-notes",
+      "template": "3-Resources/templates/daily note.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
     }
   ],
   "syntax_highlighting": true,
-  "enabled_templates_hotkeys": [],
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
   "startup_templates": [
     ""
   ],
-  "enable_ribbon_icon": true
+  "intellisense_render": 1
 }

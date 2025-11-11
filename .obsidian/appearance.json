@@ -1,6 +1,5 @@
 {
-  "accentColor": "",
-  "cssTheme": "Obsidian Nord",
-  "baseFontSize": 13,
-  "theme": "obsidian"
+  "cssTheme": "Things",
+  "theme": "obsidian",
+  "interfaceFontFamily": ""
 }
