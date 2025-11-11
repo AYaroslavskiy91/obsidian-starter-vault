@@ -1,22 +1,24 @@
 {
   "main": {
-    "id": "31c1951d057f61ec",
+    "id": "94188cac13ee7af5",
     "type": "split",
     "children": [
       {
-        "id": "311775a98c0534e9",
+        "id": "75895314e5f83d50",
         "type": "tabs",
         "children": [
           {
-            "id": "0f35e1ea74f298fd",
+            "id": "f26a152485b2db5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Projects/Learning-this-Vault/Learning-this-Vault.md",
-                "mode": "source",
-                "source": false
-              }
+                "file": "readme.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "readme"
             }
           }
         ]
@@ -25,26 +27,29 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "07f7255d992442e8",
+    "id": "77d10990d56a945a",
     "type": "split",
     "children": [
       {
-        "id": "1edc888acb218b48",
+        "id": "4206ac898c7188a5",
         "type": "tabs",
-        "dimension": 66.33165829145729,
+        "dimension": 50,
         "children": [
           {
-            "id": "72eb92c2465a50ab",
+            "id": "71a2c711b45a7ba1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
-            "id": "42d73aa860d3221a",
+            "id": "bc43bf38215d65d7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -55,40 +60,38 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
-            "id": "89cf724b442577b4",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "2dd3c5a72e5ae94c",
+            "id": "3f6bae22c202731a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       },
       {
-        "id": "bd6ca09a1cbdf525",
+        "id": "c7767067836806e3",
         "type": "tabs",
-        "dimension": 33.66834170854271,
+        "dimension": 50,
         "children": [
           {
-            "id": "1876b6222d21b425",
+            "id": "4c40e071661951cc",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "1-Projects/Learning-this-Vault/Learning-this-Vault.md"
-              }
+              "type": "calendar",
+              "state": {},
+              "pinned": true,
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -98,49 +101,20 @@
     "width": 300
   },
   "right": {
-    "id": "6c42efec67e25afa",
+    "id": "75da3d3a1c831877",
     "type": "split",
     "children": [
       {
-        "id": "b7b266fa329994e6",
+        "id": "4c1e02ed9c0031f7",
         "type": "tabs",
         "children": [
           {
-            "id": "1fcb7e65744aab51",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "1-Projects/Learning-this-Vault/Learning-this-Vault.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "d62bfff23d224fb0",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "83ca631232ea91cb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "634d4db315ce2a55",
+            "id": "530d7768d276fece",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Projects/Learning-this-Vault/Learning-this-Vault.md",
+                "file": "1-Projects/test/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,63 +122,117 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "ebb2b9304aec9574",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1-Projects/test/Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "1b502a7f89caaec7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7fadb831d4a939e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1-Projects/test/Untitled.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
       "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
       "templater-obsidian:Templater": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "cmdr:Daily Note": false,
+      "cmdr:Meeting": false
     }
   },
-  "active": "0f35e1ea74f298fd",
+  "active": "f26a152485b2db5f",
   "lastOpenFiles": [
-    "2-Areas-of-Responsibility/Meetings/2023-06-05 My first meeting.md",
-    "2-Areas-of-Responsibility/People/Clementine Paddlesworth.md",
-    "2-Areas-of-Responsibility/People/Banana Steelbutton.md",
-    "1-Projects/Learning-this-Vault/Learning-this-Vault.md",
-    "1-Projects/Learning-this-Vault/7_Conclusion.md",
+    "4-Archive",
+    "3-Resources/templates/workout.md",
+    "3-Resources/templates/recipe.md",
+    "3-Resources/templates/project.md",
+    "3-Resources/templates/meeting.md",
+    "3-Resources/templates/ingredient.md",
+    "3-Resources/templates/daily note.md",
+    "3-Resources/templates",
+    "3-Resources/recipes",
+    "3-Resources/ingredients",
+    "3-Resources",
+    "1-Projects/Vault Tutor/Support Files/Tiller Fitle.md",
+    "1-Projects/Vault Tutor/Support Files/Fitler Tifle.md",
+    "1-Projects/Vault Tutor/Support Files/Filler Title.md",
+    "1-Projects/Vault Tutor/Vault Tutor.md",
+    "1-Projects/Vault Tutor/Support Files",
+    "1-Projects/Vault Tutor",
+    "1-Projects",
+    "README.md",
+    "3-Resources/Templates-Markdown/Template-Recipe.md",
+    "3-Resources/Templates-Markdown/Template-People.md",
     "3-Resources/Templates-Markdown/Template-Meeting.md",
+    "3-Resources/Templates-Markdown/Template-Ingredient.md",
+    "3-Resources/Templates-Markdown/Template-Exercise.md",
     "3-Resources/Templates-Markdown/Template-Daily Note.md",
-    "3-Resources/Templates-Markdown/js_trigger_meeting_attendee.md",
-    "3-Resources/Templates-Markdown/js_trigger_saw_person.md",
-    "1-Projects/Learning-this-Vault/5_Other_Community_Plugins.md",
-    "1-Projects/Learning-this-Vault/4_Templater_and_Quickadd.md",
-    "1-Projects/Learning-this-Vault/2_Base_Features.md",
-    "1-Projects/Learning-this-Vault/6_Vault_Idiosyncracies.md",
-    "3-Resources/Recipes/Roasted Chicken.md",
+    "3-Resources/Templates-Markdown",
     "3-Resources/Recipes/Spaghetti Carbonara.md",
+    "3-Resources/Recipes/Roasted Chicken.md",
+    "3-Resources/Recipes/Grilled Cheeseburgers.md",
     "3-Resources/Recipes/Caeser Salad.md",
     "3-Resources/Recipes/Cabbage and Turnip Kimchi.md",
-    "3-Resources/Recipes/Grilled Cheeseburgers.md",
-    "3-Resources/Templates-Markdown/Template-Recipe.md",
-    "3-Resources/Templates-Javascript/pickIngredient.js",
-    "3-Resources/Ingredients/anchovies.md",
+    "3-Resources/Recipes",
     "3-Resources/Ingredients/zucchini.md",
     "3-Resources/Ingredients/worcestorshire sauce.md",
     "3-Resources/Ingredients/wine.md",
-    "3-Resources/Ingredients/white vinegar.md",
-    "3-Resources/Ingredients/vegetable stock.md",
-    "3-Resources/Ingredients/vanilla extract.md",
     "3-Resources/Ingredients",
-    "3-Resources/Recipes",
-    "4-Archive",
-    "3-Resources/Templates-Javascript/pickPersonWork.js",
-    "2-Areas-of-Responsibility/Exercise/2023-06-05 workout",
-    "3. Resources/Templates - Javascript/pickPersonCadent.js",
-    "3-Resources/Templates-Javascript/pickPerson.js",
-    "3. Resources/Templates - Javascript/dailyNoteNav.js",
-    "1-Projects/Learning-this-Vault"
+    "Untitled.canvas"
   ]
 }

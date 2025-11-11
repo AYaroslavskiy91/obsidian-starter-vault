@@ -1,15 +1,16 @@
 [
-  "dataview",
-  "nldates-obsidian",
-  "folder-note-plugin",
   "templater-obsidian",
+  "dataview",
+  "calendar",
   "quickadd",
-  "better-word-count",
-  "obsidian-auto-link-title",
-  "obsidian-full-calendar",
   "obsidian-linter",
+  "better-word-count",
+  "cmdr",
+  "obsidian-auto-link-title",
+  "obsidian-meta-bind-plugin",
+  "tabs",
+  "folder-notes",
   "obsidian-tasks-plugin",
-  "buttons",
-  "customjs",
-  "cm-editor-syntax-highlight-obsidian"
+  "obsidian-textgenerator-plugin",
+  "buttons"
 ]
